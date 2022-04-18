@@ -47,6 +47,7 @@ $(".saveBtn").on("click", function () {
     id: clickedEventId,
     text: clickedEventText
   };
+  
   //loadEvents() sets events to null if there is nothing in localStorage,
   //so this if statement sets it back to an empty array so push() will work.
   if(events === null){
